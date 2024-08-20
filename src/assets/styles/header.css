@@ -1,0 +1,137 @@
+.header_css {
+    position: relative;
+    z-index: auto;
+}
+
+.container_h {
+    flex-grow: 1;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    min-height: 3.25rem;
+    width: 100%;
+}
+
+
+.navbar_brand {
+    display: flex;
+    align-items: stretch;
+    flex-shrink: 0;
+    min-height: 3.25rem;
+}
+
+.navbar_item {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.logo{
+        width: 100px; 
+        height: 150px; 
+        background-image: url('../images/ACEY.png');
+        background-size: contain; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+}
+
+.navbar_menu {
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto; 
+}
+
+
+.nav_link {
+        color: #F5F5F5; /* Off-White text color */
+        margin-left: 20px;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+}
+
+
+
+
+.navbar_item .nav_link {
+    color: #f5f5f5;
+    line-height: 1.5;
+    padding: 0.5rem 0.75rem;
+    position: relative;
+}
+
+.navbar_item a {
+    color: #F5F5F5; /* Off-White text color */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar_item a:hover{
+    color: #E6E6FA;
+}
+
+
+.nav_start {
+    justify-content: flex-start;
+}
+
+
+.deco1 { 
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px; 
+    border: 2px solid #673eb3; 
+    border-radius: 20px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.deco2{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #382758;
+    border-radius: 44px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background: linear-gradient(225deg, #cacaca, #f0f0f0);
+    box-shadow:  -33px 33px 66px #bebebe,33px -33px 66px #ffffff;
+}
+
+.deco1:hover {
+    text-decoration: none; 
+    background-color: #604592;
+    color: #9f9edb; 
+}
+
+.deco2:hover{
+    text-decoration: none; 
+    color: #a587dd;
+    
+}
+
+
+@media screen and (min-width: 1024px) {
+    .header_css {
+        min-height: 3.25rem;
+    }
+
+    .container_h:not(.is-max-desktop) {
+        max-width: 1152px;
+    }
+
+    .header_css > .container_h .navbar_brand {
+        margin-left: -0.75rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .header_css .navbar_menu {
+        box-shadow: none;
+        padding: 0.5rem 0;
+    }
+}
+
+.navbar-menu {
+    display: none;
+}

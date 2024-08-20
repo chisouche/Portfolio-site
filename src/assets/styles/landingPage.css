@@ -1,0 +1,307 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    max-height: 100%;
+    background-color: #fff; 
+    overflow-x: hidden;
+    font-size: 1rem; 
+}
+
+.landing_css{
+    display: flex;
+    padding-top: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.intro_h1 {
+    font-size: 3.8rem;
+    margin-left: 5rem;
+    margin-right:5rem;
+    padding-bottom: 3rem;
+}
+
+.project_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.delay{
+    animation-delay: .8s;
+}
+
+.slide{
+    -webkit-animation: slide .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    -moz-animation: slide .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation: slide .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    -webkit-animation-fill-mode: backwards;
+    -moz-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateY(100px); /* Start slightly off-screen */
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0); /* End in the final position */
+        opacity: 1;
+    }
+}
+
+.proj_item {
+    width: calc(50% - 60px);
+    margin-bottom: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    animation: slide .6s cubic-bezier(0.2, 0.6, 0.2, 1) backwards;
+}
+
+.delay {
+    animation-delay: .8s;
+}
+
+
+.proj_item:nth-child(2n-2){
+    position: relative;
+    top: 300px;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.proj_item_image {
+    border-radius: 24px;
+    overflow: hidden;
+    height: 640px;
+    width: 100%; /* Ensure it fills the div width */
+    transition: all .8s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+
+.proj_item_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the div */
+    display: block;
+}
+
+
+img{
+    pointer-events: none !important;
+    max-width: 100%;
+}
+
+.proj_item_info{
+    text-align: center;
+    margin-top: 24px;
+    
+}
+
+.proj_item_comp{
+    color: #4B0082;
+    font-family: 'Geist';
+    font-weight: 500;
+    font-size: 1.375rem;
+    line-height: 160%;
+    display: block;
+    text-decoration: none;
+}
+
+.proj_item_desc {
+    color: #666666;
+    font-family: 'Geist';
+    font-weight: 300;
+    font-size: 1.125rem;
+    display: block;
+    text-decoration: none;
+}
+
+.bottom_landing{
+    margin: 0px auto;
+    max-width: 760px;
+    padding: 10vw 0 12vw 0;
+    animation-delay: .9s ;
+    animation: slide .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-fill-mode: backwards;
+}
+
+.bottom_landing p{
+    line-height: 160%;
+    font-family: 'Geist';
+    color: #111111;
+    color: #333333;
+    font-weight: 300;
+    font-size: 1.375rem;
+}
+
+.bottom_landing a{
+    font-size: 1.3rem;
+}
+
+
+.container_start{
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+
+.start_project{
+    display: block;
+
+    background-color: #1d043f;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #141c3a;
+    border-radius: 20px;
+    padding: 2.5rem 1rem 1rem 1rem;
+    width: 1200px;
+    height: 150px;
+}
+
+
+
+.next_project {
+    display: block;
+    background-color: #B0A8B9; 
+    box-shadow: rgba(85, 78, 97, 0.4) 0px 15px 30px -12px inset, 
+                rgba(0, 0, 0, 0.2) 0px 10px 20px -10px inset, 
+                rgba(85, 78, 97, 0.3) 0px 20px 40px -8px; /* More neutral shadow */
+    border-radius: 20px;
+    padding: 3rem 1rem 2rem 1rem;
+    width: 500px; 
+    height: 120px; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+    cursor: pointer; 
+}
+
+.next_project:hover {
+    transform: translateY(-5px); 
+    box-shadow: rgba(85, 78, 97, 0.6) 0px 20px 40px -10px inset, 
+                rgba(0, 0, 0, 0.3) 0px 15px 30px -15px inset, 
+                rgba(85, 78, 97, 0.4) 0px 25px 50px -10px; /* Enhanced but subtle shadow */
+}
+
+.next_title  {
+    color: #3E3A52; 
+    font-weight: 600; 
+    font-size: 2rem; 
+    line-height: 1.25;
+    font-family: 'eurostile', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+
+
+
+.columns:last-child {
+    margin-bottom: -0.75rem;
+}
+
+.columns {
+    margin-left: 7rem;
+    margin-top: -0.75rem;
+}
+
+.level {
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 769px), print {
+    .level > .level-item:not(.is-narrow) {
+        flex-grow: 1;
+    }
+}
+
+.column{
+    display: block;
+    flex-basis: 0;
+    flex-shrink: 1;
+    padding: 0.75rem;
+}
+
+.column p{
+    font-size: 14px;
+    color: #9f9edb;
+}
+
+.title{
+    color: #9f9edb;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1.125;
+    font-family: "eurostile", sans-serif;
+}
+
+.contact_button button {
+    color: #9f9edb;
+    width: 160px; 
+    height: 55px; 
+    margin-left: 5rem;
+    /* margin-top: -3rem; */
+    border-width: 2px;
+    background-color: transparent;
+    border-color: #ffffff;
+    border-radius: 20px; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+    box-shadow: 0 4px 6px rgba(44, 40, 40, 0.1); 
+}
+
+.contact_button button:hover {
+    background-color: #9f9edb; 
+    color: #007BFF; 
+    border-color: #007BFF; 
+    transform: translateY(-3px); 
+    box-shadow: 0 6px 10px rgba(44, 40, 40, 0.2); 
+}
+
+.contact_button button:active {
+    background-color: #1d043f; 
+    color: #ffffff; 
+    border-color: #ffffff; 
+    transform: translateY(0); 
+    box-shadow: 0 2px 4px rgba(44, 40, 40, 0.2); }
+  
+  .contact_button button:focus {
+    outline: none; 
+    box-shadow: 0 0 0 3px rgba(92, 84, 102, 0.5); 
+  }
+  
+  .contact_button button:disabled {
+    background-color: #cccccc; 
+    color: #666666; 
+    border-color: #cccccc; 
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: 0.6; 
+  }
+
+
+@media screen and (min-width: 769px), print {
+    .columns:not(.is-desktop) {
+        display: flex;
+    }
+}
