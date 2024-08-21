@@ -1,7 +1,7 @@
 // src/components/Footer.js
 import React from 'react';
 import '../assets/styles/footer.css';
-import { FaTwitter, FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
+import { FaTwitter, FaLinkedin, FaGithub} from 'react-icons/fa';
 
 
 const Footer = () => {
@@ -10,20 +10,17 @@ const Footer = () => {
       <p>&copy; 2024 Ace.</p>
       <div className="footer-content">
         <div className="social-links">
-          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/spacerjace" target="_blank" rel="noopener noreferrer">
             <FaTwitter className="social-icon" />
           </a>
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/jennifer-uc-317a10285/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="social-icon" />
           </a>
-          <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/chisouche" target="_blank" rel="noopener noreferrer">
             <FaGithub className="social-icon" />
           </a>
-          <a href="mailto:chisom.uche@gmail.com">
-            <FaEnvelope className="social-icon" />
-          </a>
         </div>
-       </div>
+     </div>
     </footer>
   );
 };

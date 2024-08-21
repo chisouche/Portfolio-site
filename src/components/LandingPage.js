@@ -2,7 +2,11 @@
 import React from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import '../assets/styles/landingPage.css';
-import image_1 from '../assets/images/mobileview.png'
+import image_1 from '../assets/images/imgone.png';
+import image_2 from '../assets/images/imgtwo.png';
+import image_3 from '../assets/images/imgthree.png';
+import image_4 from '../assets/images/imgfour.png';
+import image_5 from '../assets/images/imgfive.png';
 
 
 const LandingPage = () => {
@@ -39,7 +43,7 @@ const LandingPage = () => {
           <a href="/" className='proj_item grid1'>
 
             <div className='proj_item_image'>
-              <img src={image_1} alt='place'/>
+              <img src={image_2} alt='place'/>
             </div>
 
             <div className='proj_item_info'>
@@ -51,7 +55,7 @@ const LandingPage = () => {
           <a href="/" className='proj_item grid1'>
 
             <div className='proj_item_image'>
-              <img src={image_1} alt='place'/>
+              <img src={image_3} alt='place'/>
             </div>
 
             <div className='proj_item_info'>
@@ -63,7 +67,7 @@ const LandingPage = () => {
           <a href="/" className='proj_item grid1'>
 
             <div className='proj_item_image'>
-              <img src={image_1} alt='place'/>
+              <img src={image_4} alt='place'/>
             </div>
 
             <div className='proj_item_info'>
@@ -75,7 +79,7 @@ const LandingPage = () => {
           <a href="/" className='proj_item grid1'>
 
             <div className='proj_item_image'>
-              <img src={image_1} alt='place'/>
+              <img src={image_5} alt='place'/>
             </div>
 
             <div className='proj_item_info'>
@@ -84,7 +88,7 @@ const LandingPage = () => {
             </div>
           </a>
 
-          <a href="/" className='proj_item '>
+          <a href="/" className='proj_item btn_item '>
 
           <div className='next_project grid2'>
             <span className='next_title'>Writings</span>
@@ -120,7 +124,7 @@ const LandingPage = () => {
 
               <div className='column level-item'>
                   <a href='/' className='contact_button'>
-                    <button contact_btn>
+                    <button className='contact_btn'>
                       <span>💬</span><span>Let’s Talk</span>  
                     </button>
                   </a>
