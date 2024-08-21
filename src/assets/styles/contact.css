@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Geist', sans-serif; /* Use your preferred font */
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Primary text color */
+    background-color: #f7f7f7; /* Light background color */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #4B0082; /* Indigo color for headings */
+    font-family: 'Geist', sans-serif;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    color: #666; /* Slightly lighter color for paragraph text */
+}
+
+a {
+    color: #4B0082; /* Indigo color for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #551A8B; /* Slightly darker shade on hover */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+ul li {
+    margin-bottom: 0.75rem;
+}
+
+button {
+    font-family: 'Geist', sans-serif;
+}
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff; /* White background for the form container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Light shadow for subtle depth */
+}
+
+.contact-title {
+    font-size: 2rem; /* Larger font size for emphasis */
+    color: #4B0082; /* Indigo color for the title */
+    text-align: center; /* Center-align the title */
+    margin-bottom: 1rem; /* Space between title and introductory text */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Light shadow for a playful effect */
+}
+
+.contact-intro {
+    font-size: 1rem;
+    color: #666666; /* Subtle gray color */
+    margin-bottom: 1.5rem; /* Space between text and form */
+    text-align: center; /* Center-align the introductory text */
+}
+
+.contact-form {
+    padding: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-size: 0.9rem;
+    color: #666666; /* Subtle label color */
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333333; /* Dark text color */
+    background-color: #f9f9f9; /* Slightly off-white background */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #4B0082; /* Indigo border on focus */
+    box-shadow: 0 0 5px rgba(75, 0, 130, 0.1); /* Light indigo shadow on focus */
+    outline: none; /* Remove default focus outline */
+}
+
+textarea {
+    min-height: 150px; /* Ensure the textarea is tall enough */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+button[type="submit"] {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4B0082; /* Indigo background for the button */
+    color: #ffffff; /* White text color */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #551A8B; /* Slightly darker indigo on hover */
+    transform: translateY(-2px); /* Lift button slightly on hover */
+}
+
+button[type="submit"]:active {
+    transform: translateY(0); /* Reset lift on click */
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 1rem;
+    }
+
+    .contact-title {
+        font-size: 1.5rem; /* Slightly smaller title on smaller screens */
+    }
+
+    .contact-intro {
+        font-size: 0.875rem; /* Slightly smaller text on smaller screens */
+        margin-bottom: 1rem;
+    }
+
+    button[type="submit"] {
+        width: 100%; /* Full-width button on smaller screens */
+        padding: 1rem;
+    }
+}
+
+

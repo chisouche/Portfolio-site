@@ -123,7 +123,7 @@ const LandingPage = () => {
               </div>
 
               <div className='column level-item'>
-                  <a href='/' className='contact_button'>
+                  <a href='/contact' className='contact_button'>
                     <button className='contact_btn'>
                       <span>💬</span><span>Let’s Talk</span>  
                     </button>
