@@ -1,53 +1,5 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Geist', sans-serif; /* Use your preferred font */
-    font-size: 16px;
-    line-height: 1.6;
-    color: #333; /* Primary text color */
-    background-color: #f7f7f7; /* Light background color */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
 
-h1, h2, h3, h4, h5, h6 {
-    color: #4B0082; /* Indigo color for headings */
-    font-family: 'Geist', sans-serif;
-    margin-bottom: 1rem;
-}
 
-p {
-    margin-bottom: 1.5rem;
-    color: #666; /* Slightly lighter color for paragraph text */
-}
-
-a {
-    color: #4B0082; /* Indigo color for links */
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #551A8B; /* Slightly darker shade on hover */
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-}
-
-ul {
-    padding-left: 1.2rem;
-}
-
-ul li {
-    margin-bottom: 0.75rem;
-}
-
-button {
-    font-family: 'Geist', sans-serif;
-}
 .contact-container {
     max-width: 600px;
     margin: 0 auto;
