@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import LandingPage from './components/LandingPage';
 import About from './components/About';
-import Projects from './components/Projects';
+import Projects from './components/Writing_proj';
 import Contact from './components/Contact';
 
 const App = () => {

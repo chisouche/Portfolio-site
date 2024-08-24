@@ -88,7 +88,7 @@ const LandingPage = () => {
             </div>
           </a>
 
-          <a href="/" className='proj_item btn_item '>
+          <a href="/projects" className='proj_item btn_item '>
 
           <div className='next_project grid2'>
             <span className='next_title'>Writings</span>
@@ -103,7 +103,7 @@ const LandingPage = () => {
         <div className='bottom_landing'>
           <div className='abt_desc'>
             <p>I’m Ace, a software developer and technical writer with a passion for blending technical precision with creative insight.I bring years of experience in developing intuitive user interfaces and creating clear, impactful technical documentation. I thrive on solving complex problems, translating intricate concepts into accessible content, and driving projects from inception to completion. My goal is to bridge the gap between technology and its users, ensuring that both function seamlessly together.</p>
-            <a href='/'>More about me</a>
+            <a href='/about' className='a_more'>More about me  </a>
           </div>
 
           <div className='contact'>
