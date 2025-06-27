@@ -22,31 +22,31 @@ const Projects = () => {
           </div>
 
           <div className='writing_cards_container'>
-            <div class="writing_card">
-                <div class="image-container">
-                  <a href="https://talkible.vercel.app/" class="writing-external-link" >
-                    <img src="https://user-images.githubusercontent.com/31516195/252760801-7035e590-6138-41ef-89de-ca8c3a3bc001.png" alt="Talkible" class="project-image" loading="lazy"/>
+            <div className="writing_card">
+                <div className="image-container">
+                  <a href="https://talkible.vercel.app/" className="writing-external-link" >
+                    <img src="https://user-images.githubusercontent.com/31516195/252760801-7035e590-6138-41ef-89de-ca8c3a3bc001.png" alt="Talkible" className="project-image" loading="lazy"/>
                   </a>
                 </div>
 
-                <div class="writing-details-container">
-                  <h2 class="writing-heading">Talkible</h2>
-                  <p class="writing-details">A new age social media where you can connect, share, and engage in a vibrant social network.</p>
-                  <a href="https://talkible.vercel.app/" class="writing-live-link" >View live</a>
+                <div className="writing-details-container">
+                  <h2 className="writing-heading">Talkible</h2>
+                  <p className="writing-details">A new age social media where you can connect, share, and engage in a vibrant social network.</p>
+                  <a href="https://talkible.vercel.app/" className="writing-live-link" >View live</a>
                 </div>
               </div>
 
-              <div class="writing_card">
-                <div class="image-container">
-                  <a href="https://talkible.vercel.app/" class="writing-external-link" >
-                    <img src="https://user-images.githubusercontent.com/31516195/252760801-7035e590-6138-41ef-89de-ca8c3a3bc001.png" alt="Talkible" class="project-image" loading="lazy"/>
+              <div className="writing_card">
+                <div className="image-container">
+                  <a href="https://talkible.vercel.app/" className="writing-external-link" >
+                    <img src="https://user-images.githubusercontent.com/31516195/252760801-7035e590-6138-41ef-89de-ca8c3a3bc001.png" alt="Talkible" className="project-image" loading="lazy"/>
                   </a>
                 </div>
 
-                <div class="writing-details-container">
-                  <h2 class="writing-heading">Talkible</h2>
-                  <p class="writing-details">A new age social media where you can connect, share, and engage in a vibrant social network.</p>
-                  <a href="https://talkible.vercel.app/" class="writing-live-link" >View live</a>
+                <div className="writing-details-container">
+                  <h2 className="writing-heading">Talkible</h2>
+                  <p className="writing-details">A new age social media where you can connect, share, and engage in a vibrant social network.</p>
+                  <a href="https://talkible.vercel.app/" className="writing-live-link" >View live</a>
                 </div>
               </div>
           </div>

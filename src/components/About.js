@@ -57,23 +57,23 @@ const About = () => {
 
               {/* Relevant Experience */}
 
-              <div class="work-experiences">
+                <div className="work-experiences">
                     <h2>Work Experiences</h2>
 
-                    <div class="experience-container">
-                      <div class="experience-item">
+                    <div className="experience-container">
+                      <div className="experience-item">
                         <h3>Mid Frontend Developer(Remote)</h3>
                         <p>DCRegina LTD, Lagos, Nigeria</p>
                         <span>2023 - Present</span>
                       </div>
 
-                      <div class="experience-item">
+                      <div className="experience-item">
                         <h3>Machine Learning Engineer(internship)</h3>
                         <p>Pilot On Demand, Assen, Netherlands</p>
                         <span>2021 - 2022</span>
                       </div>
 
-                      <div class="experience-item">
+                      <div className="experience-item">
                         <h3>Software Developer</h3>
                         <p>Ecleaps LTD, Lagos, Nigeria</p>
                         <span>2018 - 2020</span>
@@ -81,10 +81,10 @@ const About = () => {
                     </div>
                   </div>
 
-                  <section class="skills-contributions">
+                  <section className="skills-contributions">
             <h2>Key Skills & Contributions</h2>
 
-            <div class="skills">
+            <div className="skills">
                 <h4>Frontend Development</h4>
                 <ul>
                     <li>Designed and developed user-friendly interfaces for lab production software applications.</li>
@@ -94,7 +94,7 @@ const About = () => {
                 </ul>
             </div>
 
-            <div class="skills">
+            <div className="skills">
                 <h4>Backend Development</h4>
                 <ul>
                     <li>Developed and maintained Java-based backend services.</li>
@@ -102,7 +102,7 @@ const About = () => {
                 </ul>
             </div>
 
-            <div class="skills">
+            <div className="skills">
                 <h4>Machine Learning</h4>
                 <ul>
                     <li>Researched, designed, and implemented a machine learning prototype application.</li>
@@ -110,7 +110,7 @@ const About = () => {
                 </ul>
             </div>
 
-            <div class="skills">
+            <div className="skills">
                 <h4>Web Development</h4>
                 <ul>
                     <li>Developed responsive web applications using HTML5, CSS3, JavaScript, and Java.</li>
@@ -118,7 +118,7 @@ const About = () => {
                 </ul>
             </div>
 
-            <div class="skills">
+            <div className="skills">
                 <h4>Collaboration & Communication</h4>
                 <ul>
                     <li>Worked closely with UX/UI designers, backend developers, and clients.</li>
@@ -127,7 +127,7 @@ const About = () => {
             </div>
         </section>
 
-        <section class="skills-certifications">
+        <section className="skills-certifications">
             <h2>Skills</h2>
             <ul>
                 <li>Programming Languages: Java, JavaScript, Python, TypeScript</li>
@@ -138,7 +138,7 @@ const About = () => {
             </ul>
         </section>
 
-        <section class="certifications-projects">
+        <section className="certifications-projects">
 
             <h2>Projects</h2>
             <ul>
